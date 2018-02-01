@@ -9,6 +9,15 @@ body {
   padding: 40px;
 }
 
+a {
+  color: #335522;
+}
+
+.language-bar {
+  text-align: right;
+  margin-bottom: 20px;
+}
+
 .title {
   font-size: 1.8em;
   margin-bottom: 20px;
@@ -41,7 +50,7 @@ img {
   padding-bottom: 50px;
 }
 
-@media only screen and (min-width: 1200px) {
+/* @media only screen and (min-width: 1200px) {
 
   body {
     overflow: hidden;
@@ -81,4 +90,4 @@ img {
     margin-right: 40px;
   }
 
-}
+} */
