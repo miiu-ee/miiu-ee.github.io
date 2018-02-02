@@ -4,15 +4,32 @@
 }
 
 body {
-  background-color: #FFFFFF;
-  color: #333;
+  background-color: #fafafa;
+  color: #111;
   max-width: 900px;
   margin-left: auto;
   margin-right: auto;
 }
 
 a {
-  color: #335522;
+  color: #111;
+  display:inline-block;
+  text-decoration: none;
+  -webkit-transition: all 200ms ease-in;
+  -ms-transition: all 200ms ease-in;
+  -moz-transition: all 200ms ease-in;
+  transition: all 200ms ease-in;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  -moz-transform: scale(1);
+  transform: scale(1);
+}
+
+a:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .language-bar {
